@@ -1,0 +1,19 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "Video library management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "SLAM",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
